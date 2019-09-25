@@ -4,15 +4,24 @@ public class _00_1D_Array_Methods {
 	//1. Complete the method so that it returns the sum of all
 	//   of the integers in the array being passed in
 	public static int sumIntArray(int[] values) {
-
-		return 0;
+	int add=0;
+		for (int i = 0; i < values.length; i++) {
+		add+=values[i];
+	}
+		return add;   
 	}
 	
 	//2. Complete the method so that it returns the average of all
 	//   of the integers in the array being passed in
+	
 	public static double averageIntArray(int[] values) {
-				
-		return 0;
+	double store=0;
+	for (int i = 0; i < values.length; i++) {
+		store += values[i];
+		
+	}
+		store/=values.length;
+	return store;
 	}
 	
 	
